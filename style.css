@@ -150,3 +150,15 @@ a#linkfooter {
 a#linkfooter:hover {
     color: white;
 }
+
+@media (max-width: 480px) {
+    div#gridcontainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    aside {
+        width: 73%;
+        margin: auto;
+    }
+}
