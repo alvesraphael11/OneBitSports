@@ -152,6 +152,11 @@ a#linkfooter:hover {
 }
 
 @media (max-width: 480px) {
+    header {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
     div#gridcontainer {
         display: flex;
         flex-wrap: wrap;
